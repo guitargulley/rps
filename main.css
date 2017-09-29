@@ -5,10 +5,11 @@ body{
     background-image:url("images/enterprise.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    color:whitesmoke;
 }
 button{
-    width:200px;
-    height:200px;
+    width:150px;
+    height:150px;
     color:whitesmoke;
     border:2px whitesmoke ridge;
     display: inline-block;
@@ -18,7 +19,7 @@ button{
 .game{
     font-size: 300%;
     font-weight: bold;
-    color:white;
+    color:whitesmoke;
 
 }
 .first{
@@ -38,32 +39,34 @@ button{
 }
 .reset button{
     background-color:red;
-    color:white;
+    color:whitesmoke;
 }
 
 .rock{
     background-image:url("images/rock.jpg");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
+    
+
 }
 .paper{
-    background-image:url("images/paper.png");
-    background-size: 200px 200px;
+    background-image:url("images/yellowpaper.jpg");
+    background-size: 150px 150px;
 }
 .scissors{
     background-image:url("images/scissors.jpg");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
 }
 .lizard{
     
     background-image:url("images/lizard.jpg");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
 }
 .spock{
     background-image:url("images/spock.png");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
 }
 .question{
     background-image:url("images/question.png");
-    background-size: 200px 200px;
+    background-size: 150px 150px;
 }
 
