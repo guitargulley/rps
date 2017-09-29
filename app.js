@@ -41,7 +41,7 @@
     
     function showResult(result) {
         document.getElementById("myResults").innerHTML = result;
-        //   alert(result);
+       
     }
     
     // Add your "play" function below this comment
