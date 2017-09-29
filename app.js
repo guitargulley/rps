@@ -10,6 +10,7 @@
     var reset = document.getElementById('reset');
     var generate = document.getElementById('generate');
     var player = document.getElementById('player');
+    var myResults = document.getElementById('myResults');
     
     rock.addEventListener('click', function() {
         play('rock');
@@ -35,10 +36,12 @@
         computer = choices[index];
         generate.className = 'question';
         player.className = 'question';
+        document.getElementById('myResults').innerHTML = '';
     });
     
     function showResult(result) {
-        setTimeout(alert(result),2000);
+        document.getElementById("myResults").innerHTML = result;
+        //   alert(result);
     }
     
     // Add your "play" function below this comment
