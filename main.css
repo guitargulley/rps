@@ -16,25 +16,25 @@ button{
     border-radius: 50%;
     }
 .game{
-    font-size: 400%;
+    font-size: 300%;
     font-weight: bold;
     color:white;
 
 }
 .first{
-    padding-top:50px;
+    padding-top:25px;
 }
 .second{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .third{
-    padding-top:50px;
+    padding-top:25px;
 }
 .fourth{
-    padding-top:50px;
+    padding-top:25px;
 }
 .fifth{
-    padding-top:50px;
+    padding-top:25px;
 }
 .reset button{
     background-color:red;
